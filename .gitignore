@@ -1,0 +1,10 @@
+# local env files
+.env*.local
+.env
+
+# test files
+.jpeg
+.jpg
+
+# ide settings
+.idea
