@@ -3,7 +3,7 @@ from PyPDF2 import PdfReader
 
 
 def get_text_from_pdf():
-    reader = PdfReader('pdfAnswers/sample.pdf')
+    reader = PdfReader('sample.pdf')
     final_text = ''
     for page in reader.pages:
         final_text += page.extract_text()
